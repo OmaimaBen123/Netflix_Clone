@@ -1,4 +1,4 @@
-import card_1 from './Inception.jpg'
+import card_1 from './Inception.jpeg'
 import card_2 from './the-dark.jpg';
 import card_3 from "./Interstellar.jpg";
 import card_4 from "./matrix.jpg";

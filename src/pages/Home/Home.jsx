@@ -5,6 +5,7 @@ import hero_banner from '../../assets/banner.jpg';
 import hero_title from "../../assets/caption.png";
 import  play_icon from "../../assets/play.png";
 import info_icon from "../../assets/info-icon.png";
+import TitleCards from '../../components/TitleCards/TitleCards';
 const Home = () => {
   return <div className="home">
       <Navbar />
@@ -25,7 +26,14 @@ const Home = () => {
               <img src={info_icon} alt="" />More Info
             </button>
           </div>
+          <TitleCards />
         </div>
+      </div>
+      <div className="more-cards">
+        <TitleCards title={"Blockbuster Movies"} />
+        <TitleCards title={"Only on Netflix"} />
+        <TitleCards title={"UpComing"} />
+        <TitleCards title={"Top Pics for you"} />
       </div>
     </div>;
 }
